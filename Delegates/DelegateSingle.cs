@@ -19,5 +19,15 @@ namespace Delegates
             int result = num1 - num2;
             Console.WriteLine("Subtraction : " + result);
         }
+        public static void Multiplication(int num1, int num2)
+        {
+            int result = num1 * num2;
+            Console.WriteLine("Multiplication : " + result);
+        }
+        public static void Division(int num1, int num2)
+        {
+            int result = num1 / num2;
+            Console.WriteLine("Division : " + result);
+        }
     }
 }
